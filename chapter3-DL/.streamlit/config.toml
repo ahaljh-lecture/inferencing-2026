@@ -1,0 +1,5 @@
+[server]
+# transformers의 지연 로딩 이미지 모델을 파일 감시기가 훑다가
+# torchvision 미설치로 인한 ModuleNotFoundError 로그를 쏟아내는 문제를 막습니다.
+# "none"으로 두면 코드 저장 시 자동 새로고침은 비활성화됩니다(수동 R 또는 재시작).
+fileWatcherType = "none"

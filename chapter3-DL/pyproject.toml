@@ -1,0 +1,14 @@
+[project]
+name = "chapter3-dl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "deepface>=0.0.100",
+    "opencv-python>=4.8,<5",
+    "streamlit>=1.58.0",
+    "tf-keras>=2.21.0",
+    "torch>=2.2",
+    "transformers>=4.46",
+]
